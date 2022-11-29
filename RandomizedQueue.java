@@ -106,7 +106,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         public RandomIterator() {
             set = new int[size];
             // create set of indexes and randomize then
-            // copy them across
             for (int i = 0; i < n; i++) {
                 set[i] = i;
             }
