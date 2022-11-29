@@ -114,7 +114,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             StdRandom.shuffle(set);
         }
 
-        public boolean hasNext() { return current != size - 1; }
+        public boolean hasNext() { return current != size; }
         public void remove() { throw new UnsupportedOperationException(); }
 
         public Item next() {
